@@ -10,3 +10,6 @@ O(1) -> Constant time: It's the faster way to solve a problem.
 O(n) -> Linear time: The time complexity increases in linear time.
 O(log n) -> Logarithmic time: The time complexity increases in logarithmic time, the runtime isn't proportional to the size of the input.
 O(n log n) -> Linearithmic time: Scales on linear and logarithmic time
+O(n²) -> Quadratic Time: It's a linear algorithm inside other linear algorithm.
+O(2n) -> Exponential Time: At every new element on an input, the execution time doubles.
+O(n!) -> Factorial Time: Increases in factorial time.
