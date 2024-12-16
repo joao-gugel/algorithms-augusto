@@ -81,8 +81,9 @@ dl.addToEnd(20);
 console.log(dl.removeFromEnd());
 console.log(dl.removeFromEnd());
 
+dl.addToFront(6);
+dl.addToFront(5);
+dl.addToFront(4);
+dl.addToFront(3);
 dl.addToFront(2);
 dl.addToFront(1);
-
-console.log(dl.removeFromEnd());
-console.log(dl.removeFromEnd());

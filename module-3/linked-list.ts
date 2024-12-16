@@ -45,5 +45,22 @@ ll.shift();
 ll.shift();
 
 ll.add(5);
+ll.add(6);
+ll.add(7);
 
 console.log(ll);
+
+function reverseList(head: LINode | null) {
+  let newList: LINode | null = null;
+
+  while (head) {
+    let nextNode = head.next;
+    head.next = newList;
+    newList = head;
+    head = nextNode;
+  }
+
+  return newList;
+}
+
+console.log(reverseList(ll.head));
