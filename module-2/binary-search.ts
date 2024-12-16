@@ -1,4 +1,4 @@
-function binarySeach(nums: number[], value: number) {
+function binarySearch(nums: number[], value: number) {
   let lower = 0;
   let higher = nums.length;
 
@@ -16,4 +16,4 @@ function binarySeach(nums: number[], value: number) {
   return -1;
 }
 
-console.log(binarySeach([1, 2, 3, 4, 5], 7));
+console.log(binarySearch([1, 2, 3, 4, 5], 7));
