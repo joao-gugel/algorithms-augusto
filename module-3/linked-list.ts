@@ -64,3 +64,29 @@ function reverseList(head: LINode | null) {
 }
 
 console.log(reverseList(ll.head));
+
+const ll2 = new LinkedList();
+
+ll2.add(1);
+ll2.add(2);
+ll2.add(3);
+ll2.add(4);
+ll2.add(5);
+ll2.add(7);
+ll2.add(8);
+ll2.add(9);
+ll2.add(10);
+ll2.add(11);
+
+function findMiddle(head: LINode) {
+  let ahead = head;
+
+  while (ahead && ahead.next) {
+    ahead = ahead.next.next!;
+    head = head.next!;
+  }
+
+  return head.value;
+}
+
+console.log(findMiddle(ll2.head!));
